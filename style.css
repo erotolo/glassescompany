@@ -1,0 +1,305 @@
+/* Nav bar styling */
+.navbar {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border: 0;
+    border-radius: 0;
+    margin-bottom: 0;
+    font-size: 12px;
+    letter-spacing: 5px;
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    width: 100%; /* Full width */
+    background-color: white;
+    z-index: 10;
+}
+/*hover settings for the navbar */
+.navbar-nav li a:hover {
+    color: #3061B8 !important; /*navy blue */
+}
+/*positions all content aside from the navbar down so it's all visible */
+.main {
+    margin-top: 100px;
+}
+
+/* Parallax styling for the top of the homepage */
+.parallax {
+    /* The image used */
+    background-image: url("imgs/home/hero_background.jpg");
+
+    /* Set a specific height */
+    min-height: 600px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/*button in the parallax settings */
+.buttonhome {
+    background-color: black; 
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.2; /* Safari */
+    transition-duration: 0.2s;
+    cursor: pointer;
+    
+    position:absolute;
+    left:45%;
+    top:85%;
+    width:100;
+    text-align:center;
+}
+/*hover settings */
+.buttonhome:hover {
+    background-color: white;
+    color: black;
+}
+/*introduction section styling */
+.siteintro{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+
+h2 {
+    margin left: 500px;
+}
+/* styling for the products */
+.productinfo {
+    padding-top: 50px;
+}
+.thumbnail {
+    width: 400px;
+    height: auto;
+}
+.products {
+    margin-left: 50px;
+    margin-bottom: 50px;
+  
+}
+.products p {
+    font-size: 12px;
+}
+.topproducts {
+    margin-right: 30px;
+}
+.topproducts h1 {
+    margin-left: 80px;
+    margin-bottom: 30px;
+}
+/* Homepage 'wire frames' promo styling */
+.wire h1 {
+    
+    font: Ariel; 
+    color: black;
+    font-size: 88px;
+    font-weight: 500;
+    position: absolute;
+    bottom: 180px;
+    left: 170px;
+}
+.frames h1{
+     font: Ariel; 
+    color: black;
+    font-size: 88px;
+    font-weight: 500;
+    position: absolute;
+    bottom: 110px;
+    left: 170px;
+}
+/* button for the 'wire frames' promo */
+.buttonpromo {
+   background-color: black; 
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.2; /* Safari */
+    transition-duration: 0.2s;
+    cursor: pointer;
+    
+    position: absolute;
+    bottom: 70px;
+    left: 270px;
+}
+.buttonpromo:hover {
+    background-color: white;
+    color: black;
+}
+.about h2 {
+    margin-left: 150px;
+    color:#3061B8;
+}
+.about p {
+    margin-top: 10px;
+    color:#3061B8;
+}
+ p{
+    font-size: 14px;
+}
+
+
+
+
+ul{
+			list-style: none outside none;
+		    padding-left: 0;
+            margin: 0;
+		}
+
+
+.productinfo {
+    padding-left: 40px;;
+}
+/*hover settings seen on the product images */
+.effect:hover img.image{
+  display:none;
+  }
+  .effect img.hover{
+  display:none;
+  }
+  .effect:hover img.hover{
+  display:block;
+  }
+/*video settings */
+video {
+    width: 100%;
+    height: auto;
+}
+/*second parallax on the homepage */
+.ad {
+     /* The image used */
+    background-image: url("imgs/home/banner.jpg");
+
+    /* Set a specific height */
+    min-height: 500px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/* banner seen at the top of the 'all.php' page */
+.topbanner{
+     background-image: url("imgs/home/hero_background%20copy.jpg");
+background-size: cover;
+    /* Set a specific height */
+    min-height: 300px; 
+}
+
+.productstitle {
+   position:absolute;
+    left:40%;
+    top:30%;
+    width:100;
+    text-align:center;
+    color: white;
+    background-color: black;
+    padding: 1px 5px 5px 5px;
+}
+
+/* footer settings and styling */
+.footer-distributed{
+	background-color: #292c2f;
+	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+	box-sizing: border-box;
+	width: 100%;
+	text-align: left;
+	font: normal 16px sans-serif;
+
+	padding: 45px 50px;
+	margin-top: 80px;
+}
+
+.footer-distributed .footer-left p{
+	color:  #8f9296;
+	font-size: 14px;
+	margin: 0;
+}
+
+/* Footer links */
+
+.footer-distributed p.footer-links{
+	font-size:18px;
+	font-weight: bold;
+	color:  #ffffff;
+	margin: 0 0 10px;
+	padding: 0;
+}
+
+.footer-distributed p.footer-links a{
+	display:inline-block;
+	line-height: 1.8;
+	text-decoration: none;
+	color:  inherit;
+}
+
+.footer-distributed .footer-right{
+	float: right;
+	margin-top: 6px;
+	max-width: 180px;
+}
+
+.footer-distributed .footer-right a{
+	display: inline-block;
+	width: 35px;
+	height: 35px;
+	background-color:  #33383b;
+	border-radius: 2px;
+
+	font-size: 20px;
+	color: #ffffff;
+	text-align: center;
+	line-height: 35px;
+
+	margin-left: 3px;
+}
+.background {
+    height:670px;
+    background-color:white;
+    font-size:36px;
+}
+.homepromo {
+    max-width: 100%;
+}
+/* Media queries for the footer */
+
+@media (max-width: 600px) {
+
+    .background {
+        height: 1100px;
+    }
+	.footer-distributed .footer-left,
+	.footer-distributed .footer-right{
+		text-align: center;
+	}
+
+	.footer-distributed .footer-right{
+		float: none;
+		margin: 0 auto 20px;
+	}
+
+	.footer-distributed .footer-left p.footer-links{
+		line-height: 1.8;
+	}
+    .footer-distributed{
+        margin-top: 600px;
+    }
+    .buttonhome{
+        margin-left: -40px;
+        margin-top: 30px;
+    }
+}
